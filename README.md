@@ -14,6 +14,11 @@ Run following commands
 
 ```
 php artisan key:generate
+```
+
+Create a database `products_api` and add it to .env
+
+```
 php artisan migrate --seed // it will import fake products
 ```
 
